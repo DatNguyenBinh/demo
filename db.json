@@ -1,31 +1,42 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "datnguyenbinh"
-  }
+    "status": 200,
+    "error": "",
+    "page": 1,
+    "page_size": 10,
+    "page_total": 1,
+    "items_count": 2,
+    "data": [
+        {
+            "id": 2,
+            "name": "so_ghi_t9_2020_tuyen1",
+            "desc": "sổ ghi chỉ số tuyến 1 tháng 9/2020",
+            "start_date": "2020-09-01",
+            "due_date": "2020-09-05",
+            "done_date": null,
+            "assignee": "username_employee",
+            "reporter": "username_manager",
+            "route": "5ea6cb72-f45b-41e7-acf5-a7a3da8580b6",
+            "status": 0,
+            "approved": 0,
+            "created_date": "2020-10-19T18:00:32.866374Z",
+            "updated_date": "2020-10-19T18:00:32.866374Z",
+            "invoice_period": 1
+        },
+        {
+            "id": 1,
+            "name": "so_ghi_t9_2020_tuyen2",
+            "desc": "sổ ghi chỉ số tuyến 2 tháng 9/2020",
+            "start_date": "2020-09-01",
+            "due_date": "2020-09-05",
+            "done_date": null,
+            "assignee": "username_employee",
+            "reporter": "username_manager",
+            "route": "d4e55e10-ee85-445e-8e2c-bb6b3efd4810",
+            "status": 0,
+            "approved": 0,
+            "created_date": "2020-10-19T17:39:24.165014Z",
+            "updated_date": "2020-10-19T18:00:04.573319Z",
+            "invoice_period": 1
+        }
+    ]
 }
